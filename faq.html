@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQs - My Company</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: url(hey.jfif) no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      padding: 20px 0;
+      border-bottom: 1px solid #444;
+    }
+
+    header h1 {
+      font-size: 28px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ddd;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    nav a.active,
+    nav a:hover {
+      background-color: #555;
+    }
+
+    main {
+      margin-top: 30px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .faq {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border-left: 4px solid #888;
+    }
+
+    .faq h3 {
+      margin-bottom: 8px;
+      color: #fff;
+    }
+
+    .faq p {
+      font-size: 15px;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      border-top: 1px solid #444;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header class="container">
+      <h1>BML Company</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="missionvision.html">Mission & Vision</a></li>
+          <li><a href="portfolio.html">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="faq.html" class="active">FAQs</a></li>
+          <li><a href="web-designer.html">Web Designer</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq">
+        <h3>What services do you provide?</h3>
+        <p>We offer web design, branding, UI/UX, and digital strategy solutions tailored for modern businesses.</p>
+      </div>
+
+      <div class="faq">
+        <h3>How do I contact your team?</h3>
+        <p>You can visit our Contact page and fill out the form, or reach us via email and phone listed there.</p>
+      </div>
+
+      <div class="faq">
+        <h3>Where are you located?</h3>
+        <p>We are based in Space City, but we work with clients from all over the world remotely.</p>
+      </div>
+
+      <div class="faq">
+        <h3>Can I request a custom project?</h3>
+        <p>Absolutely! Just send us a message with your project details and we’ll get back to you with options.</p>
+      </div>
+    </main>
+
+    <footer class="container">
+      <p>&copy; 2025 BML Company. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - My Company</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url(light.jfif) no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7);
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid #444;
+        }
+
+        header h1 {
+            font-size: 28px;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ddd;
+            padding: 6px 12px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        nav a.active,
+        nav a:hover {
+            background-color: #555;
+        }
+
+        main .services {
+            margin-top: 40px;
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        main .services h2 {
+            font-size: 24px;
+            color: #fff;
+        }
+
+        main .services ul {
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+        main .services li {
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #444;
+            font-size: 14px;
+            color: #aaa;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <header>
+            <div class="container">
+                <h1>BML Company</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html" class="active">Services</a></li>
+                        <li><a href="missionvision.html" class="active">Mission & Vision</a></li>
+                        <li><a href="portfolio.html">Gallery</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="web-designer.html">Web Designer</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li><strong>Web Design & Development:</strong> Custom websites with responsive design and modern aesthetics.</li>
+                    <li><strong>Graphic Design:</strong> Logos, branding materials, and digital content tailored to your vision.</li>
+                    <li><strong>SEO Optimization:</strong> Improve your search engine visibility and attract more traffic.</li>
+                    <li><strong>Content Creation:</strong> Blog posts, articles, and marketing copy that engage your audience.</li>
+                    <li><strong>Technical Support:</strong> Ongoing website maintenance, security, and updates.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 BML Company. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
